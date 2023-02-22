@@ -9,12 +9,6 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {
-      fontFamily: {
-        fancy: ["Space Grotesk"],
-      },
-    },
-  },
-  plugins: [require('@tailwindcss/aspect-ratio')],
+  theme: {},
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };
