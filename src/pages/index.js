@@ -58,7 +58,7 @@ function BlurImage({ image }) {
           onLoadingComplete={() => setLoading(false)}
         />
       </div>
-      <a href={image.href} target="_blank">
+      <a href={image.href} target="_blank" rel="noreferrer">
         <h3 className="font-fancy mt-4 text-xs text-gray-700">
           @{image?.username}
         </h3>
